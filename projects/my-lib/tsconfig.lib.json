@@ -1,0 +1,32 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../../out-tsc/lib",
+    "declarationMap": true,
+    "inlineSources": true,
+    "types": [],
+    "forceConsistentCasingInFileNames": true,
+    "strict": false,
+    "noImplicitOverride": false,
+    "noPropertyAccessFromIndexSignature": false,
+    "noImplicitReturns": false,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "noFallthroughCasesInSwitch": true,
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "skipLibCheck": true,
+    "emitDecoratorMetadata": true,
+    "target": "ES2022",
+    "module": "ES2022",
+    "lib": ["ES2022", "scripthost", "dom"]
+  },
+  "exclude": [
+    "**/*.spec.ts"
+  ]
+}
